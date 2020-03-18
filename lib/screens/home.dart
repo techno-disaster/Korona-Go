@@ -11,15 +11,29 @@ class _KoronaGoState extends State<KoronaGo> {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: CountryPicker(
-        onChanged: (Country country) {
-            setState(() {
-              _selected = country;
-            });
-          },
-          selectedCountry: _selected,
-      )
-    );
+    return Scaffold(
+        body: Center(
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: <Widget>[
+          Container(
+            child: CountryPicker(
+              onChanged: (Country country) {
+                setState(() {
+                  _selected = country;
+                });
+              },
+              selectedCountry: _selected,
+            ),
+          ),
+          RaisedButton(
+            child: Text("Select Country"),
+            onPressed: () {
+              print(_selected.isoCode); //country code is here
+            },
+          ),
+        ],
+      ),
+    ));
   }
 }
