@@ -17,7 +17,7 @@ class _KoronaGoState extends State<KoronaGo> {
 
     var data = jsonDecode(response.body);
 
-    print(data["countrydata"]);
+   // print(data["countrydata"]);
     return data;
   }
 
@@ -91,7 +91,7 @@ class _KoronaGoState extends State<KoronaGo> {
                               child: Column(
                                 children: <Widget>[
                                   Container(
-                                    margin: EdgeInsets.fromLTRB(0, 10, 100, 11),
+                                    margin: EdgeInsets.fromLTRB(0, 10, 100, 0),
                                     child: Text(
                                       snapshot.data["countrydata"][0]["info"]
                                               ["title"]
@@ -114,7 +114,7 @@ class _KoronaGoState extends State<KoronaGo> {
                                     ),
                                   ),
                                   SizedBox(
-                                    height: 8,
+                                    height: screenheight / 220,
                                   ),
                                   Container(
                                     child: Text(
@@ -162,7 +162,7 @@ class _KoronaGoState extends State<KoronaGo> {
                               child: Column(
                                 children: <Widget>[
                                   Container(
-                                    margin: EdgeInsets.fromLTRB(0, 10, 100, 11),
+                                    margin: EdgeInsets.fromLTRB(0, 10, 100, 0),
                                     child: Text(
                                       snapshot.data["countrydata"][0]["info"]
                                               ["title"]
@@ -188,7 +188,7 @@ class _KoronaGoState extends State<KoronaGo> {
                                     ),
                                   ),
                                   SizedBox(
-                                    height: 8,
+                                    height: screenheight / 220,
                                   ),
                                   Container(
                                     child: Text(
@@ -242,7 +242,7 @@ class _KoronaGoState extends State<KoronaGo> {
                               child: Column(
                                 children: <Widget>[
                                   Container(
-                                    margin: EdgeInsets.fromLTRB(0, 10, 100, 11),
+                                    margin: EdgeInsets.fromLTRB(0, 10, 100, 0),
                                     child: Text(
                                       snapshot.data["countrydata"][0]["info"]
                                               ["title"]
@@ -263,7 +263,7 @@ class _KoronaGoState extends State<KoronaGo> {
                                     ),
                                   ),
                                   SizedBox(
-                                    height: 8,
+                                    height: screenheight / 220,
                                   ),
                                   Container(
                                     child: Text(
@@ -311,7 +311,7 @@ class _KoronaGoState extends State<KoronaGo> {
                               child: Column(
                                 children: <Widget>[
                                   Container(
-                                    margin: EdgeInsets.fromLTRB(0, 10, 100, 11),
+                                    margin: EdgeInsets.fromLTRB(0, 10, 100, 0),
                                     child: Text(
                                       snapshot.data["countrydata"][0]["info"]
                                               ["title"]
@@ -329,13 +329,13 @@ class _KoronaGoState extends State<KoronaGo> {
                                             snapshot.data["countrydata"][0]
                                                     ["total_new_deaths_today"]
                                                 .toString(),
-                                        style: TextStyle(
+                                        style: TextStyle( 
                                             color: Colors.red, fontSize: 25),
                                       ),
                                     ),
                                   ),
                                   SizedBox(
-                                    height: 8,
+                                    height: screenheight / 220,
                                   ),
                                   Container(
                                     child: Text(
@@ -389,7 +389,7 @@ class _KoronaGoState extends State<KoronaGo> {
                               child: Column(
                                 children: <Widget>[
                                   Container(
-                                    margin: EdgeInsets.fromLTRB(0, 10, 100, 11),
+                                    margin: EdgeInsets.fromLTRB(0, 10, 100, 0),
                                     child: Text(
                                       snapshot.data["countrydata"][0]["info"]
                                               ["title"]
@@ -410,7 +410,7 @@ class _KoronaGoState extends State<KoronaGo> {
                                     ),
                                   ),
                                   SizedBox(
-                                    height: 8,
+                                    height: screenheight / 220,
                                   ),
                                   Container(
                                     child: Text(
@@ -458,7 +458,7 @@ class _KoronaGoState extends State<KoronaGo> {
                               child: Column(
                                 children: <Widget>[
                                   Container(
-                                    margin: EdgeInsets.fromLTRB(0, 10, 100, 11),
+                                    margin: EdgeInsets.fromLTRB(0, 10, 100, 0),
                                     child: Text(
                                       snapshot.data["countrydata"][0]["info"]
                                               ["title"]
@@ -483,7 +483,7 @@ class _KoronaGoState extends State<KoronaGo> {
                                     ),
                                   ),
                                   SizedBox(
-                                    height: 8,
+                                    height: screenheight / 220,
                                   ),
                                   Container(
                                     child: Text(
