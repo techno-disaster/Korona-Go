@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'package:connectivity/connectivity.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_sparkline/flutter_sparkline.dart';
 import 'package:http/http.dart' as http;
@@ -76,12 +77,39 @@ class _KoronaGoState extends State<KoronaGo> {
     ];
   }
 
+  _checkInternetConnectivity() async {
+    var result = await Connectivity().checkConnectivity();
+    if (result == ConnectivityResult.none) {
+      _showDialog('No internet', "You're not connected to a network");
+    }
+  }
+
+  _showDialog(title, text) {
+    showDialog(
+        context: context,
+        builder: (context) {
+          return AlertDialog(
+            title: Text(title),
+            content: Text(text),
+            actions: <Widget>[
+              FlatButton(
+                child: Text('Ok'),
+                onPressed: () {
+                  Navigator.of(context).pop();
+                },
+              )
+            ],
+          );
+        });
+  }
+
   @override
   void initState() {
     super.initState();
     getData("US");
     gettimelineData("US");
     getGlobalData();
+    _checkInternetConnectivity();
   }
 
   @override
@@ -104,6 +132,7 @@ class _KoronaGoState extends State<KoronaGo> {
                 selected = country;
                 getData(selected.isoCode);
                 gettimelineData(selected.isoCode);
+                _checkInternetConnectivity();
               });
             },
             selectedCountry: selected,
