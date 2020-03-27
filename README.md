@@ -3,6 +3,8 @@
 <h1>InvoiceMate</h1>
 
 [![made-with-flutter](https://img.shields.io/badge/made%20with-Flutter-blue.svg)](https://www.flutter,dev/)
+[![Open Source Love png1](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
+
 <br>
 
 </div>
@@ -23,6 +25,12 @@ CovidMate gives you the correct and most recent stats about how the coronovirus.
 ### Contributing
 
  We're are open to `enhancements` & `bug-fixes` :smile: Also do have a look [here](./CONTRIBUTING.md)
+ 
+ <div align="center">
+ 
+ [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/Naereen/)
+ 
+ </div>
  
 ### FAQ
  
