@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>InvoiceMate</h1>
+<h1>CovidMate</h1>
 
 [![made-with-flutter](https://img.shields.io/badge/made%20with-Flutter-blue.svg)](https://www.flutter,dev/)
 [![Open Source Love png1](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
