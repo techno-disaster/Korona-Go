@@ -13,7 +13,11 @@
 
 CovidMate gives you the correct and most recent stats about how the coronovirus.
 
-#### Tech Stack used - Flutter :)
+#### Tech Stack used 
+
+Flutter :)
+
+Data fetched from thevirustracker.com
 
 ### Screenshots
 
