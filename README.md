@@ -1,16 +1,22 @@
-# koronago
+<div align="center">
 
-A new Flutter project.
+<h1>InvoiceMate</h1>
 
-## Getting Started
+[![made-with-flutter](https://img.shields.io/badge/made%20with-Flutter-blue.svg)](https://www.flutter,dev/)
+<br>
 
-This project is a starting point for a Flutter application.
+</div>
 
-A few resources to get you started if this is your first Flutter project:
+### CovidMate 
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+CovidMate gives you the correct and most recent stats about how the coronovirus.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+#### Tech Stack used - Flutter :)
+
+### Screenshots
+
+
+### Contributing
+
+ We're are open to `enhancements` & `bug-fixes` :smile: Also do have a look [here](./CONTRIBUTING.md)
+ 
