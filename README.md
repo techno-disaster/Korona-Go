@@ -16,8 +16,8 @@ CovidMate gives you the correct and most recent stats about how the coronovirus.
 ### Screenshots
 
 <div align="center">
-<img src="https://github.com/Techno-Disaster/Korona-Go/blob/master/screenshots/HiShoot_20200327_072603.png" width="210"> &nbsp;
-<img src="https://github.com/Techno-Disaster/Korona-Go/blob/master/screenshots/HiShoot_20200327_072628.png" width="210"> &nbsp;
+<img src="https://github.com/Techno-Disaster/Korona-Go/blob/master/screenshots/HiShoot_20200327_072603.png" width="410"> &nbsp;
+<img src="https://github.com/Techno-Disaster/Korona-Go/blob/master/screenshots/HiShoot_20200327_072628.png" width="410"> &nbsp;
 </div>
 
 ### Contributing
