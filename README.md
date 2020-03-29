@@ -11,7 +11,7 @@
 
 ### CovidMate 
 
-CovidMate gives you the correct and most recent stats about how the coronovirus.
+CovidMate gives you the correct and most recent global stats of Covid-19.
 
 #### Tech Stack used 
 
