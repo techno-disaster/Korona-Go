@@ -364,9 +364,11 @@ class _KoronaGoState extends State<KoronaGo> {
                                         children: <Widget>[
                                           Center(
                                             child: Text(
-                                              snapshot.data["countrydata"][0]
-                                                      ["total_new_cases_today"]
-                                                  .toString(),
+                                              "+" +
+                                                  snapshot.data["countrydata"]
+                                                          [0][
+                                                          "total_new_cases_today"]
+                                                      .toString(),
                                               style: TextStyle(
                                                   color: Colors.blue,
                                                   fontSize: 25),
