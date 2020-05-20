@@ -1,3 +1,5 @@
+#### Development for Korona-Go has been stopped, because there are way too many tracking apps out there right now.
+
 <div align="center">
 
 <h1>CovidMate</h1>
